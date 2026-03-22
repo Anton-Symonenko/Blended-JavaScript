@@ -16,6 +16,18 @@
 //         alert("Не вірно")
 //     }
 
+// const number = Number (prompt("Lucky"));
+// if (number === 7) {
+//     alert("Правильно")
+// }
+// else if (number === 0) {
+//     alert("Нуль")
+// } else {
+//     alert ("Неправильно")
+// }
+
+
+
 
 // Task 2
 // У змінній min лежить випадкове число від 0 до 59.
@@ -84,6 +96,19 @@
 // const formattedMins = String(mins).padStart(2, "0");
 
 // console.log(`${formattedHour}:${formattedMins}`);
+
+
+// ТАКА САМА 
+
+// const seconds = Number(prompt("sek"));
+// const minutes = Math.floor(seconds / 60);
+// const formseconds = seconds % 60;
+// const formattedMins = String(minutes).padStart(2, "0");
+// const formattedSeconds = String(formseconds).padStart(2, "0");
+
+// console.log(`${formattedMins}:${formattedSeconds}`);
+
+
 
 // task 5
 // Напишіть код, який запитуватиме у користувача
@@ -196,3 +221,60 @@
 // console.log(min(123, 50));
 // console.log(min('ax', 'max'));
 // console.log(min(5, 5));
+
+// Task 9
+// Напишіть функцію isAdult(age), яка  приймає число - вік користувача і повертає true, 
+// якщо параметр age більше чи дорівнює 18.
+// В іншому випадку вона запитує підтвердження через confirm 
+// і повертає його результат (true/false).
+
+// function isAdult(age) {
+//     if (age >= 18) {
+//         return true;
+//     } else {
+//         return confirm ("Вам менше 18,Продовжити?");
+//    }
+  
+// }
+// console.log(isAdult(23));
+// console.log(isAdult(15));
+
+// // TAsk 10
+// // Напишіть функцію fizzBuzz(num), яка приймає число і перевіряє кожне число від 1 до num:
+// // Якщо число ділитися  без остачі на 3 - виводить в консоль 'fizz',
+// // якщо ділиться  без остачі на 5 - виводить в консоль 'buzz',
+// // якщо ділиться  без остачі і на 3, і на 5 - виводить в консоль 'fizzbuzz'.
+
+// function fizzBuzz(num) {
+//     for (let i = 1; i <= num; i++){
+   
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log ("fizzbuzz")
+//     }
+//     else if (i % 3 === 0) {
+//         console.log ("fizz")
+//     }
+//     else if (i % 5 === 0) {
+//         console.log ("buzz")
+//     } else {
+//         console.log (i)
+//     }
+// }
+//  }
+// console.log(fizzBuzz(23));
+
+// function checkNumbers(num) {
+//     for (let n = 1; n <= num; n++){
+//         if (n % 2 === 0 && n % 7 === 0) {
+//             console.log("foobar")
+//         }
+//         else if (n % 2 === 0) {
+//             console.log("foo")
+//         } else if (n % 7 === 0) {
+//             console.log("bar")
+//         } else {
+//             console.log(n)
+//         }
+//     }
+// }
+// console.log(checkNumbers(27));
