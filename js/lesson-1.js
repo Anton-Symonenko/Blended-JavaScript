@@ -9,6 +9,21 @@
 // перетворіть значення на число за допомогою Number().
 
 
+// const toto = Number(prompt("Lucky or no"));
+// if (isNaN(toto)) {
+//     alert("Not a number")
+// }
+// else if (toto === 7) {
+//     alert("Lucky")
+// }
+// else if (toto < 7) {
+//     alert("More")
+// } else {
+//     alert("Less")
+// }
+
+
+
 // const number = Number(prompt("Введіть число"));
 //     if (number === 10) {
 //     alert("Вірно")
@@ -35,6 +50,18 @@
 // це число (у першу, другу, третю чи четверту).
 // Виведіть в alert відповідне повідомлення, наприклад:
 // "10 входить в першу чверть"
+
+// const toto = Math.floor(Math.random() * 60);
+// if (toto < 15) {
+//     alert(`${toto} First part`)
+// } else if (toto < 30) {
+//     alert(`${toto} Second part`)
+// }else if (toto < 45) {
+//     alert(`${toto} Third part`)
+// }else {
+//     alert(`${toto} Fourth part`)
+// }
+
 
 // const min = Math.floor(Math.random() * 59);
 // if (min <= 15) {
@@ -278,3 +305,20 @@
 //     }
 // }
 // console.log(checkNumbers(27));
+
+
+// function fizzBuzz(num) {
+//     for (let i = 1; i <= num; i++){ 
+//         if (i % 4 === 0 && i % 6 === 0)
+//             console.log("gan4toto")
+//         else if (i % 4 === 0) {
+//             console.log("gan4")
+//         }
+//         else if (i % 6 === 0) {
+//             console.log("toto")
+//         }
+//         else {
+//             console.log(i)
+//         }
+//     }
+// }
